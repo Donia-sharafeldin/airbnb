@@ -1,7 +1,31 @@
 # Airbnb Data Analysis
 ![](./results/airbnb.png)
-Data available at (https://www.kaggle.com/airbnb/seattle/data)
 
+## Files in repository:
+
+    |__data
+    |   |__calender.csv
+    |   |__listings.csv
+    |   |__reviews.csv
+    | 
+    |__results
+    |  |__ neighbour hood distribution.PNG
+    |  |__ output.PNG
+    |  |__ price in neighbourhood permonth.PNG
+    |  |__ price per month.PNG
+    |  |__ pricedist.PNG
+    |  |__ airbnb.PNG
+    |
+    |__airpnp.ipynb
+    |__README.md
+
+
+# libraries used 
+* numpy
+* Pandas
+* matplotlib
+* seaborn
+* Sklearn 
 
 Airbnb is a great company that operates an online market place for lodging primarily homestays for vacation rentals, and tourism activities. <br>
 In our investigation we focus on rentals in seatle.
@@ -39,6 +63,9 @@ we wander what neighbour hood has the most visits
 
 ## Machine model
 
-1. using linear regression gives r2 score of 0.59 and 0.54 for train and test set respectively 
-2. Random forest gives r2 score of 0.71 and 0.66 train and test set respectively 
-3. So we can say that random forest is more representative model for our data and we can conclude that propertytype and the property qualities one of the factors that affect the price. 
+1. using linear regression gives r2 score of 0.57 and -3.9 for train and test set respectively 
+2. Random forest gives r2 score of 0.91 and 0.86 train and test set respectively 
+3. random forest is more representative model for our data and we can conclude that propertytype and the property qualities one of the factors that affect the price. 
+
+# Acknowledgment
+Data available at (https://www.kaggle.com/airbnb/seattle/data)
